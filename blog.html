@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="vendors/css/all.css" />
+    <link rel="stylesheet" href="vendors/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="about-banner">
+      <div class="container text-center py-5 text-white">
+        <h1 class="">About Blog</h1>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.Inventore,
+          ab.
+        </p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <img class="img-fluid" src="./img/carousel4.jpg" alt="" />
+              <div class="card-header">
+                <h3 class="">Blog Post One</h3>
+                <p class="font-italic text-secondary">
+                  wendsday by jeff jan25/22
+                </p>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  iusto hic error et? Maiores alias, praesentium harum
+                  consequuntur minima possimus deserunt fugit impedit suscipit
+                  quae expedita iusto minus veritatis omnis!
+                </p>
+              </div>
+            </div>
+            <div class="text card mt-3 p-4">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto recusandae incidunt rem ab pariatur voluptate
+                veritatis temporibus officiis praesentium adipisci id?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <img class="img-fluid" src="./img/carousel5.jpeg" alt="" />
+              <div class="card-header">
+                <h3 class="">Blog Post Two</h3>
+                <p class="font-italic text-secondary">
+                  wendsday by jeff jan25/22
+                </p>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  iusto hic error et? Maiores alias, praesentium harum
+                  consequuntur minima possimus deserunt fugit impedit suscipit
+                  quae expedita iusto minus veritatis omnis!
+                </p>
+              </div>
+            </div>
+            <div class="text card mt-3 p-4 badge-danger">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto recusandae incidunt rem ab pariatur voluptate
+                veritatis temporibus officiis praesentium adipisci id?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 my-4">
+            <div class="card">
+              <img class="img-fluid" src="./img/carousel2.jpg" alt="" />
+              <div class="card-header">
+                <h3 class="">Blog Post Three</h3>
+                <p class="font-italic text-secondary">
+                  wendsday by jeff jan25/22
+                </p>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  iusto hic error et? Maiores alias, praesentium harum
+                  consequuntur minima possimus deserunt fugit impedit suscipit
+                  quae expedita iusto minus veritatis omnis!
+                </p>
+              </div>
+            </div>
+            <div class="text card mt-3 p-4">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto recusandae incidunt rem ab pariatur voluptate
+                veritatis temporibus officiis praesentium adipisci id?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="vendors/js/jquery.js"></script>
+    <script src="vendors/js/popper.js"></script>
+    <script src="vendors/js/bootstrap.js"></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
